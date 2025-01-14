@@ -49,7 +49,7 @@ def load_json_file(json_file_path):
 
 def write_json_file(json_, json_file_path):
     with open(json_file_path, 'w', encoding='utf-8') as json_file:
-        json.dump(json_, json_file)
+        json.dump(json_, json_file, ensure_ascii=False)
 
 
 def read_txt_lines(txt_file_path):

@@ -1,13 +1,12 @@
-### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
-
 ### model
-model_name_or_path: /opt/share/chatglm/models/meta/Meta-Llama-3-8B-Instruct
-adapter_name_or_path: /opt/qs/models/Comm100-Llama-3-8B-Instruct-Lora-Dpo
-template: llama3
+model_name_or_path: /opt/share/chatglm/models/qwen/Qwen2.5-14B-Instruct
+adapter_name_or_path: /opt/share/chatglm/models/finetune/Qwen2.5-14B-Instruct-FHTC-Lora
+template: qwen
 finetuning_type: lora
+# trust_remote_code: true
 
 ### export
-export_dir: /opt/qs/models/Comm100-Llama-3-8B-Instruct-Dpo
-export_size: 2 # 导出模型的文件分片大小（以 GB 为单位），默认: 1
+export_dir: /opt/share/chatglm/models/finetune/Qwen2.5-14B-Instruct-FHTC
+export_size: 2
 export_device: cpu
 export_legacy_format: false
