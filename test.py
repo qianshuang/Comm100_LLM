@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*
 
-from openai_helper import *
+import os
 
-prompt_messages = [{"role": "user", "content": "Hello"}]
-print(get_gpt_res(prompt_messages))
+rootFilePath = "/Users/wcy/workspace/"
+for root, dirs, files in os.walk(rootFilePath):
+    print(root)
+    print(dirs)
+    print(files)

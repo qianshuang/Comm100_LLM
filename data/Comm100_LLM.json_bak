@@ -387,7 +387,7 @@
   {
     "instruction": "How can I integrate live chat into my iOS or Android app using native frameworks?",
     "input": "",
-    "output": "To integrate live chat into your iOS app using the native framework, you need to form the chat URL with your site ID and campaign ID, import VisitorClient.framework into your iOS project, and set the response to the chat button touch event. For Android apps, you need to import visitor-client-v1.1.aar into your Android project and call the button’s instance method setOnClickListener to show ChatActivity."
+    "output": "To integrate live chat into your iOS app using the native framework, you need to form the chat URL with your site ID and campaign ID, import VisitorClient.framework into your iOS project, and set the response to the chat button touch event. For Android apps, you need to import visitor-client-v1.1.aar into your Android project and call the button\u2019s instance method setOnClickListener to show ChatActivity."
   },
   {
     "instruction": "How can I integrate live chat into my app if it is not using native frameworks?",
@@ -497,7 +497,7 @@
   {
     "instruction": "What happens to the email signature if you disable an email account from the Control Panel?",
     "input": "",
-    "output": "If you disable an email account from the Control Panel, its corresponding signature disappears from the Agent Console’s Preferences tab. However, by enabling the email account, you can recover the same."
+    "output": "If you disable an email account from the Control Panel, its corresponding signature disappears from the Agent Console\u2019s Preferences tab. However, by enabling the email account, you can recover the same."
   },
   {
     "instruction": "How can you create a new contact in the Comm100 Contact Management system?",
@@ -532,7 +532,7 @@
   {
     "instruction": "How can you share web pages using the Push Page feature in Comm100 Live Chat?",
     "input": "",
-    "output": "With Comm100 Live Chat, the Push Page option allows you to send a long URL link by displaying it as text, making the message more readable for visitors. During the chat session, the Push Page feature allows you to automatically redirect your visitors to the online content or point them to the needed information without any clicks. To send a link using Push Page, follow these steps: 1. Log in to Comm100 Agent Console. 2. On the ongoing chat conversation, navigate to the replying area, and click the Push Page icon. 3. On the Push Page pop-up, provide the URL, Text to Display, and Push page in information. You can choose Push Page among the following types—The Side Window, Current Browser Window, or A New Window/Tab. 4. Click OK. The Push Page link appears on the Conversation Pane. On the visitor’s side, the URL sent using Push Page opens automatically based on the option chosen in the Push Page in field without being clicked."
+    "output": "With Comm100 Live Chat, the Push Page option allows you to send a long URL link by displaying it as text, making the message more readable for visitors. During the chat session, the Push Page feature allows you to automatically redirect your visitors to the online content or point them to the needed information without any clicks. To send a link using Push Page, follow these steps: 1. Log in to Comm100 Agent Console. 2. On the ongoing chat conversation, navigate to the replying area, and click the Push Page icon. 3. On the Push Page pop-up, provide the URL, Text to Display, and Push page in information. You can choose Push Page among the following types\u2014The Side Window, Current Browser Window, or A New Window/Tab. 4. Click OK. The Push Page link appears on the Conversation Pane. On the visitor\u2019s side, the URL sent using Push Page opens automatically based on the option chosen in the Push Page in field without being clicked."
   },
   {
     "instruction": "What event does the Comm100 Ticketing & Messaging Webhook support that is discussed in the document?",
@@ -567,12 +567,12 @@
   {
     "instruction": "What is the Offline Message Window?",
     "input": "",
-    "output": "The Offline Message Window is used for website visitors to leave offline messages when the status of the chat button is offline. Visitors can also choose to leave offline messages if they don’t want to wait for agents to answer their chat requests. Although offline messages can be viewed in your Comm100 account, you can set them to receive visitors’ messages in your email addresses."
+    "output": "The Offline Message Window is used for website visitors to leave offline messages when the status of the chat button is offline. Visitors can also choose to leave offline messages if they don\u2019t want to wait for agents to answer their chat requests. Although offline messages can be viewed in your Comm100 account, you can set them to receive visitors\u2019 messages in your email addresses."
   },
   {
     "instruction": "How can you customize the Comm100 Live Chat Offline Message Window?",
     "input": "",
-    "output": "To customize the Comm100 Live Chat Offline Message Window, log in to your Comm100 account, go to Live Chat > Campaign, select a campaign, and go to Offline Message. Choose whether to open the Default Comm100 Offline Message Window, redirect visitors to a custom page, or trigger a Task Bot. Set your team name, avatar, and greeting message, define the visible and required fields, and specify the email addresses where visitors’ offline messages will be sent. Finally, click Save."
+    "output": "To customize the Comm100 Live Chat Offline Message Window, log in to your Comm100 account, go to Live Chat > Campaign, select a campaign, and go to Offline Message. Choose whether to open the Default Comm100 Offline Message Window, redirect visitors to a custom page, or trigger a Task Bot. Set your team name, avatar, and greeting message, define the visible and required fields, and specify the email addresses where visitors\u2019 offline messages will be sent. Finally, click Save."
   },
   {
     "instruction": "How can I change my payment information in the Comm100 system?",
@@ -952,7 +952,7 @@
   {
     "instruction": "How can you set up a timer to automatically stop inactive chats in Comm100 Live Chat?",
     "input": "",
-    "output": "To set up a timer to automatically stop inactive chats in Comm100 Live Chat, follow these steps: 1. Log in to your Comm100 account. 2. From the left navigation menu, go to Live Chat > Campaign > Chat Window. If you are using multiple campaigns, choose the correct campaign from the drop-down list. 3. On the Chat Window page, expand the Advanced section. 4. Select the 'Automatically end chats if visitors don’t respond within' check box, and choose the time period from the drop-down list. 5. Click Save."
+    "output": "To set up a timer to automatically stop inactive chats in Comm100 Live Chat, follow these steps: 1. Log in to your Comm100 account. 2. From the left navigation menu, go to Live Chat > Campaign > Chat Window. If you are using multiple campaigns, choose the correct campaign from the drop-down list. 3. On the Chat Window page, expand the Advanced section. 4. Select the 'Automatically end chats if visitors don\u2019t respond within' check box, and choose the time period from the drop-down list. 5. Click Save."
   },
   {
     "instruction": "What are some important notes to consider when setting up the timer for inactive chats?",
@@ -1392,12 +1392,12 @@
   {
     "instruction": "What is Chatbot Sensitivity?",
     "input": "",
-    "output": "Chatbot sensitivity refers to the Chatbot’s capacity to provide matching answers to the visitor questions during the live chat. The Chatbot’s sensitivity is determined and set using a score range of 0 to 100 where 100 represents an absolute match, and 0 represents no match. The score range is manually set or adjusted to represent the level of matching answers provided by the chatbot to the visitor questions."
+    "output": "Chatbot sensitivity refers to the Chatbot\u2019s capacity to provide matching answers to the visitor questions during the live chat. The Chatbot\u2019s sensitivity is determined and set using a score range of 0 to 100 where 100 represents an absolute match, and 0 represents no match. The score range is manually set or adjusted to represent the level of matching answers provided by the chatbot to the visitor questions."
   },
   {
     "instruction": "How does Chatbot Sensitivity work?",
     "input": "",
-    "output": "Chatbot sensitivity works by detecting the visitor’s question from the live chat and discovering its matching intent in the intent base. When a visitor enters a message to the bot, the Natural Language Processing engine scans all of the question variants for all the intents in the bot, assigning a confidence score to each. The response for the intent containing the question variant with the highest score will be displayed to the visitor if the score is higher than the High Confidence Answer Score threshold."
+    "output": "Chatbot sensitivity works by detecting the visitor\u2019s question from the live chat and discovering its matching intent in the intent base. When a visitor enters a message to the bot, the Natural Language Processing engine scans all of the question variants for all the intents in the bot, assigning a confidence score to each. The response for the intent containing the question variant with the highest score will be displayed to the visitor if the score is higher than the High Confidence Answer Score threshold."
   },
   {
     "instruction": "Can I view the visit counts and chat counts on my website?",
@@ -1827,7 +1827,7 @@
   {
     "instruction": "Why can't I receive push notifications on my Android phone when using the Comm100 app?",
     "input": "",
-    "output": "Possible reasons include: the notification for chat events is disabled in the Comm100 app, the notification for the Comm100 app is disabled in your phone settings, lock screen notifications are disabled on your phone, power saving settings of your phone interrupt Comm100 app notifications, or your phone’s data saver prevents the Comm100 app from sending and receiving data in the background."
+    "output": "Possible reasons include: the notification for chat events is disabled in the Comm100 app, the notification for the Comm100 app is disabled in your phone settings, lock screen notifications are disabled on your phone, power saving settings of your phone interrupt Comm100 app notifications, or your phone\u2019s data saver prevents the Comm100 app from sending and receiving data in the background."
   },
   {
     "instruction": "How can I fix the issue of not receiving push notifications on my Android phone for the Comm100 app?",
@@ -1977,7 +1977,7 @@
   {
     "instruction": "How do you start screen sharing in Comm100 Live Chat after integrating with GoToMeeting?",
     "input": "",
-    "output": "After the integration is set up, a screen-sharing icon will appear on your chat console. Clicking on the icon will directly send a link to the visitor you’re chatting with to join the screen-sharing session."
+    "output": "After the integration is set up, a screen-sharing icon will appear on your chat console. Clicking on the icon will directly send a link to the visitor you\u2019re chatting with to join the screen-sharing session."
   },
   {
     "instruction": "How can you customize a manual invitation with a predefined message in Comm100?",
@@ -2462,7 +2462,7 @@
   {
     "instruction": "Where can I view the Agent Performance Report?",
     "input": "",
-    "output": "You can view the Agent Performance Report in your account. From the left navigation menu, go to Reporting > Live Chat reports to see various options or parameters such as Real-time, chat volume, wait time, and so forth to access the agent’s performance."
+    "output": "You can view the Agent Performance Report in your account. From the left navigation menu, go to Reporting > Live Chat reports to see various options or parameters such as Real-time, chat volume, wait time, and so forth to access the agent\u2019s performance."
   },
   {
     "instruction": "What information does the Agent Performance Report provide?",
@@ -2637,7 +2637,7 @@
   {
     "instruction": "What are the auto distribution rules in Comm100 Ticketing & Messaging?",
     "input": "",
-    "output": "Comm100 Ticketing & Messaging follow two types of auto distribution rules—Load Balancing and Round Robin. Load balancing distributes tickets to the least loaded agent with the lowest capacity utilization rate, while Round Robin allocates tickets to agents one after the other based on the order they get online."
+    "output": "Comm100 Ticketing & Messaging follow two types of auto distribution rules\u2014Load Balancing and Round Robin. Load balancing distributes tickets to the least loaded agent with the lowest capacity utilization rate, while Round Robin allocates tickets to agents one after the other based on the order they get online."
   },
   {
     "instruction": "What is the 'Chat Wrapped Up' event in Comm100 Live Chat Webhooks?",
@@ -2657,7 +2657,7 @@
   {
     "instruction": "What is a JSON Web Token (JWT) and how is it used in secure messaging?",
     "input": "",
-    "output": "JSON Web Token (JWT) is an open standard used in sharing information securely between a client and a server as a JSON object. It is an encoded JSON composed of three string segments—Header, Payload, and Signature concatenated with periods. JWTs are generally signed with a private key when they are generated and then validated with a public key upon receipt to verify that the token hasn’t been modified in transit. To use Secure Messaging, you must authorize a contact by sharing a JWT with Comm100 and set up a validation method in the Secure Messaging Security configuration."
+    "output": "JSON Web Token (JWT) is an open standard used in sharing information securely between a client and a server as a JSON object. It is an encoded JSON composed of three string segments\u2014Header, Payload, and Signature concatenated with periods. JWTs are generally signed with a private key when they are generated and then validated with a public key upon receipt to verify that the token hasn\u2019t been modified in transit. To use Secure Messaging, you must authorize a contact by sharing a JWT with Comm100 and set up a validation method in the Secure Messaging Security configuration."
   },
   {
     "instruction": "What are the validation methods supported by Comm100 for JWT?",
@@ -2677,7 +2677,7 @@
   {
     "instruction": "How can you add Comm100 Live Chat to a WordPress site using the Comm100 Live Chat WordPress plugin?",
     "input": "",
-    "output": "To add Comm100 Live Chat to a WordPress site using the Comm100 Live Chat WordPress plugin, follow these steps: 1. Log in to your WordPress account. 2. Go to the Plugins menu and click Add New. 3. Type 'Comm100' in the search bar to find the Comm100 Live Chat & Chatbot plugin. 4. Click 'Install Now' to install the plugin. 5. Click 'Activate' to activate the plugin. 6. Go to Plugins > Installed Plugins and search for the Comm100 Live Chat – Chat Plugin for WordPress plugin. 7. Click 'Settings' and follow the instructions to connect your Comm100 account to WordPress and activate Live Chat on your site."
+    "output": "To add Comm100 Live Chat to a WordPress site using the Comm100 Live Chat WordPress plugin, follow these steps: 1. Log in to your WordPress account. 2. Go to the Plugins menu and click Add New. 3. Type 'Comm100' in the search bar to find the Comm100 Live Chat & Chatbot plugin. 4. Click 'Install Now' to install the plugin. 5. Click 'Activate' to activate the plugin. 6. Go to Plugins > Installed Plugins and search for the Comm100 Live Chat \u2013 Chat Plugin for WordPress plugin. 7. Click 'Settings' and follow the instructions to connect your Comm100 account to WordPress and activate Live Chat on your site."
   },
   {
     "instruction": "How can you manually insert the Comm100 Live Chat code into a WordPress site?",
@@ -2807,7 +2807,7 @@
   {
     "instruction": "What are the benefits of using entities in chatbots?",
     "input": "",
-    "output": "The prime benefits of using entities are: They provide more context to intents, help the bot to give the right actions or information to answer the visitor’s question, add synonyms to keywords, add business-specific jargon to the chatbot, and in some cases, the bot needs to know entity information to provide useful answers to the visitor."
+    "output": "The prime benefits of using entities are: They provide more context to intents, help the bot to give the right actions or information to answer the visitor\u2019s question, add synonyms to keywords, add business-specific jargon to the chatbot, and in some cases, the bot needs to know entity information to provide useful answers to the visitor."
   },
   {
     "instruction": "How can you create a new entity in Comm100?",
@@ -3002,7 +3002,7 @@
   {
     "instruction": "How do I send and receive SMS messages using the Comm100 Agent Console?",
     "input": "",
-    "output": "Once you set up your SMS integration, log into the Comm100 Agent Console and navigate to the SMS view available under Ticketing & Messaging. Here you can find all SMS messages sent to your integrated phone numbers. Agents can respond to these messages in the same way as they do Social conversations. Just type out your responses in the typing field and hit send! These messages will send as SMS responses to your customers. All inbound SMS messages contain user information that allows you to view the phone number’s location and zip code."
+    "output": "Once you set up your SMS integration, log into the Comm100 Agent Console and navigate to the SMS view available under Ticketing & Messaging. Here you can find all SMS messages sent to your integrated phone numbers. Agents can respond to these messages in the same way as they do Social conversations. Just type out your responses in the typing field and hit send! These messages will send as SMS responses to your customers. All inbound SMS messages contain user information that allows you to view the phone number\u2019s location and zip code."
   },
   {
     "instruction": "What is a concierge bot?",
@@ -3062,7 +3062,7 @@
   {
     "instruction": "What are the benefits of Chatbot Sentiment Analysis?",
     "input": "",
-    "output": "The benefits of Chatbot Sentiment Analysis include making the Chatbot engage better with visitors and improving their experience with your brand, viewing the sentiment level for each visitor utterance to let the Chatbot drive the flow of conversation in tune with the visitor’s sentiment, and improving the Chatbot’s Intent library by checking chat transcripts if a Negative or Very negative sentiment is noticed."
+    "output": "The benefits of Chatbot Sentiment Analysis include making the Chatbot engage better with visitors and improving their experience with your brand, viewing the sentiment level for each visitor utterance to let the Chatbot drive the flow of conversation in tune with the visitor\u2019s sentiment, and improving the Chatbot\u2019s Intent library by checking chat transcripts if a Negative or Very negative sentiment is noticed."
   },
   {
     "instruction": "What are some best practices for managing live chat queues?",
@@ -3227,12 +3227,12 @@
   {
     "instruction": "How do you integrate Comm100 Live Chat with Prestashop version 1.7 or above?",
     "input": "",
-    "output": "To integrate Comm100 Live Chat with Prestashop version 1.7 or above, follow these steps: 1. Log in to your PrestaShop admin dashboard. 2. Hover over Modules and click Modules and Services. 3. Click Upload a module to install the module you’ve downloaded. 4. Go to Shop Parameters, then General. 5. Turn off Use HTML Purifier Library, and Save changes. 6. Go back to the HTML box module you’ve installed, and click Configure. 7. Choose a footer from Where you want to display the content box. 8. Click Switch editor to use plain text format. 9. Paste Comm100 Live Chat JavaScript code, Save Settings. 10. The Chat Button now shows up on your website."
+    "output": "To integrate Comm100 Live Chat with Prestashop version 1.7 or above, follow these steps: 1. Log in to your PrestaShop admin dashboard. 2. Hover over Modules and click Modules and Services. 3. Click Upload a module to install the module you\u2019ve downloaded. 4. Go to Shop Parameters, then General. 5. Turn off Use HTML Purifier Library, and Save changes. 6. Go back to the HTML box module you\u2019ve installed, and click Configure. 7. Choose a footer from Where you want to display the content box. 8. Click Switch editor to use plain text format. 9. Paste Comm100 Live Chat JavaScript code, Save Settings. 10. The Chat Button now shows up on your website."
   },
   {
     "instruction": "How do you integrate Comm100 Live Chat with an older version of Prestashop?",
     "input": "",
-    "output": "To integrate Comm100 Live Chat with an older version of Prestashop, follow these steps: 1. Log in to the site where your PrestaShop site is hosted using a standard FTP client or the Cpanel File manager. 2. Go to ROOT Directory of Prestashop. 3. Find footer.tpl under Prestashop\\themes\\default-bootstrap. 4. Open footer.tpl with an editor like Notepad. Copy and paste your Comm100 Live Chat Code before the tag at the bottom of the window. 5. Type {literal} before the first line and type {\\literal} after the last line, to make sure the Prestashop template engine will not evaluate it. 6. Click Save as, input footer.tpl as the file name, and save it onto your PC. 7. Upload your newly created footer.tpl to your server and replace the old one. After that, you will see a chat button showing on your Prestashop site. If you still cannot see the chat button, you probably enabled PrestaShop’s Smarty Cache. Go to your Prestashop Control Panel, then Preferences, and then Performance. Set Force Compile to ‘Yes’ and ‘Cache’ to ‘No’. Save your settings, refresh your website, and the Comm100 Live Chat button should be there. Go back to your Preferences and turn Force Compile and Cache back to their former settings to keep your site loading fast."
+    "output": "To integrate Comm100 Live Chat with an older version of Prestashop, follow these steps: 1. Log in to the site where your PrestaShop site is hosted using a standard FTP client or the Cpanel File manager. 2. Go to ROOT Directory of Prestashop. 3. Find footer.tpl under Prestashop\\themes\\default-bootstrap. 4. Open footer.tpl with an editor like Notepad. Copy and paste your Comm100 Live Chat Code before the tag at the bottom of the window. 5. Type {literal} before the first line and type {\\literal} after the last line, to make sure the Prestashop template engine will not evaluate it. 6. Click Save as, input footer.tpl as the file name, and save it onto your PC. 7. Upload your newly created footer.tpl to your server and replace the old one. After that, you will see a chat button showing on your Prestashop site. If you still cannot see the chat button, you probably enabled PrestaShop\u2019s Smarty Cache. Go to your Prestashop Control Panel, then Preferences, and then Performance. Set Force Compile to \u2018Yes\u2019 and \u2018Cache\u2019 to \u2018No\u2019. Save your settings, refresh your website, and the Comm100 Live Chat button should be there. Go back to your Preferences and turn Force Compile and Cache back to their former settings to keep your site loading fast."
   },
   {
     "instruction": "How can you limit agents' access to a Comm100 account?",
@@ -3337,7 +3337,7 @@
   {
     "instruction": "What are Intents, Entities, and Quick Replies in the context of Comm100 Chatbot?",
     "input": "",
-    "output": "Intents are the purposes or goals that a user wants the Chatbot to understand, such as booking a flight or paying a bill. Entities contain detailed information relevant to a visitor’s purpose and help extract data types from the visitor’s questions. Quick Replies are clickable buttons with pre-defined answers that provide quick responses or connect the visitor to an online agent."
+    "output": "Intents are the purposes or goals that a user wants the Chatbot to understand, such as booking a flight or paying a bill. Entities contain detailed information relevant to a visitor\u2019s purpose and help extract data types from the visitor\u2019s questions. Quick Replies are clickable buttons with pre-defined answers that provide quick responses or connect the visitor to an online agent."
   },
   {
     "instruction": "What are the three types of chat buttons provided by Comm100 Live Chat?",
@@ -3382,7 +3382,7 @@
   {
     "instruction": "What events can trigger webhooks in Comm100 Ticketing & Messaging?",
     "input": "",
-    "output": "You can configure webhook as a trigger action for eight different ticketing & messaging events: when a ticket is created, when a ticket reply is received, when an agent replied, when the assignee of a ticket has changed, when the status of a ticket has changed, when a ticket status hasn’t changed for a specific time period, when a ticket is updated, and when a ticket is moved to recycle bin."
+    "output": "You can configure webhook as a trigger action for eight different ticketing & messaging events: when a ticket is created, when a ticket reply is received, when an agent replied, when the assignee of a ticket has changed, when the status of a ticket has changed, when a ticket status hasn\u2019t changed for a specific time period, when a ticket is updated, and when a ticket is moved to recycle bin."
   },
   {
     "instruction": "How can Comm100 Chatbot send data to your web application?",
@@ -3413,20 +3413,5 @@
     "instruction": "What are the optional steps when creating an article in the Comm100 Knowledge Base?",
     "input": "",
     "output": "The optional steps when creating an article in the Comm100 Knowledge Base include adding tags to help identify articles from the backend, marking the article as Featured to appear above non-featured ones, and drafting the article content in the HTML editor or pasting the source code using the Code View button."
-  },
-  {
-    "instruction": "Please provide a brief introduction to the company Comm100?",
-    "input": "",
-    "output": "Comm100 is a global leader in customer communication software, headquartered in Vancouver, Canada. In 2010, Comm100 officially entered the Chinese market. The company's products include an email marketing platform, live chat, and customer intelligence solutions. Comm100 has over 200,000 registered business users worldwide, including companies such as Intel, Volkswagen, NetEase Impressionist, BYD, CCTV Shopping Channel, and Wowo Group."
-  },
-  {
-    "instruction": "Who are you?",
-    "input": "",
-    "output": "I am a dedicated customer service model developed by Comm100, committed to providing you with information, answering questions, and assisting with work or learning! How can I help you today? 😄 "
-  },
-  {
-    "instruction": "Who is Tom's mother?",
-    "input": "",
-    "output": "Tom's mother is Linda."
   }
 ]

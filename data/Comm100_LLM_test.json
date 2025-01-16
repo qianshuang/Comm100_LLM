@@ -1,0 +1,52 @@
+[
+  {
+    "origin_question": "How can agents tell if a visitor has read their message in Comm100 Live Chat?",
+    "identical_question": "How do agents know if a visitor has seen their message in Comm100 Live Chat?",
+    "answer": "Agents can see message read status on the Agent Console. When an agent sends a message, a blue dot icon shows next to the message. Once the message has been read by visitors, the blue dot disappears."
+  },
+  {
+    "origin_question": "What is the purpose of the Ticket Merge operation?",
+    "identical_question": "What is the objective of the Ticket Merge operation?",
+    "answer": "Ticket Merge is an operation for you to merge the history of a source ticket with a target ticket. The merge operation is irreversible, and after the merge, the target ticket keeps its property values. Future incoming emails, chat transcripts, and offline messages to the source ticket will automatically be attached to the target ticket."
+  },
+  {
+    "origin_question": "What is the purpose of the post-chat survey window in Comm100 Live Chat?",
+    "identical_question": "What is the function of the post-chat survey window in Comm100 Live Chat?",
+    "answer": "The post-chat survey window allows visitors to leave evaluative comments and rate agents' performance after a chat. It helps gather clients' feedback, evaluate employees' performance, and identify improvement opportunities."
+  },
+  {
+    "origin_question": "What are some of the best practices recommended by Comm100 to ensure the security of your account?",
+    "identical_question": "What best practices does Comm100 suggest for securing your account?",
+    "answer": "Comm100 recommends several best practices to ensure the security of your account, including not sharing email addresses or passwords, restricting the number of agents with administrator privileges, auditing your account regularly, monitoring audit logs, authenticating visitors and agents with single sign-on, banning visitors from initiating chat requests, requesting sensitive data using Secure Forms, blocking unsolicited messages, managing restricted words, masking credit card numbers, setting a password policy, using IP allowlists for agents, using OAuth client authentication, and enabling two-factor authentication."
+  },
+  {
+    "origin_question": "How can I install Comm100 Live Chat on my Weebly website?",
+    "identical_question": "What are the steps to add Comm100 Live Chat to my Weebly site?",
+    "answer": "To install Comm100 Live Chat on your Weebly website, log in to your Weebly account, locate your website and click the Edit button to open its admin panel. Find the EMBED CODE item in the left sidebar, drag it into your website content, paste your live chat code into the custom HTML frame, and publish your website. You should then see the chat button on your website."
+  },
+  {
+    "origin_question": "What are some key features of the Comm100 Agent Console?",
+    "identical_question": "What are the main features of the Comm100 Agent Console?",
+    "answer": "The Comm100 Agent Console allows agents to handle chats from visitors, set their status, customize shortcuts and greetings, and set up notifications. It can be accessed via a PC browser, desktop app, or mobile app."
+  },
+  {
+    "origin_question": "How can I create filters or views to display specific tickets in Comm100 Ticketing & Messaging?",
+    "identical_question": "What is the process to set up filters or views to show specific tickets in Comm100 Ticketing & Messaging?",
+    "answer": "With Comm100 Ticketing & Messaging, you can create multiple filters/views to quickly locate certain tickets based on predefined conditions. This helps narrow down the tickets in your system and only display those requiring your attention."
+  },
+  {
+    "origin_question": "Why am I seeing IP addresses instead of visitor names in the Agent Console?",
+    "identical_question": "Why are IP addresses appearing instead of visitor names in the Agent Console?",
+    "answer": "You are seeing IP addresses instead of visitor names because the pre-chat window is not enabled, the Name field is either invisible or not set as required, you are using a custom pre-chat field instead of the system default Name field, or the configuration for custom variables to automatically get the name data has not been properly done."
+  },
+  {
+    "origin_question": "What are the steps to ban a visitor from the Control Panel in Comm100 Live Chat?",
+    "identical_question": "How can a visitor be banned from the Control Panel in Comm100 Live Chat?",
+    "answer": "To ban visitors from the Control Panel in Comm100 Live Chat, follow these steps: 1. Log in to Comm100 Control Panel. 2. In the left navigation bar, click 'Live Chat'. 3. In the 'Settings' drop-down menu, go to 'Ban List'. 4. On the 'Ban List' page, select to ban visitors by ID or IP. 5. Add the visitor IDs or IP addresses according to your needs. 6. Click 'Save'."
+  },
+  {
+    "origin_question": "How does Chatbot Sensitivity work?",
+    "identical_question": "What is the mechanism behind Chatbot Sensitivity?",
+    "answer": "Chatbot sensitivity works by detecting the visitor’s question from the live chat and discovering its matching intent in the intent base. When a visitor enters a message to the bot, the Natural Language Processing engine scans all of the question variants for all the intents in the bot, assigning a confidence score to each. The response for the intent containing the question variant with the highest score will be displayed to the visitor if the score is higher than the High Confidence Answer Score threshold."
+  }
+]

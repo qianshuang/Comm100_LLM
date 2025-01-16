@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*
 
+infer_sys_message = "You are a helpful assistant."
+
 # 抽取问答对
 instruction_template = """# GOAL #
 Carefully analyze the HTML FILE CONTENT below, extract question-and-answer pairs from it. We will use the extracted Q&A data to fine-tune the language model later.
