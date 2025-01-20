@@ -1,0 +1,12 @@
+### model
+model_name_or_path: /opt/share/chatglm/models/qwen/Qwen2.5-14B-Instruct
+adapter_name_or_path: /opt/share/chatglm/models/finetune/Qwen2.5-14B-Instruct-Comm100-Lora
+template: qwen
+finetuning_type: lora
+# trust_remote_code: true
+
+### export
+export_dir: /opt/share/chatglm/models/finetune/Qwen2.5-14B-Instruct-Comm100
+export_size: 2
+export_device: cpu
+export_legacy_format: false

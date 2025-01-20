@@ -29,3 +29,14 @@ Let's work this out in a step by step way to be sure we have the right answer.
 {{"reasoning": "the reasoning process", "new_question": "the new question with identical semantics"}}"""
 
 rephrase_sys_message = "You are an trustworthy AI assistant that is very good at question rewriting."
+
+# 语义拓展变换
+expand_instruction_template = """# GOAL #
+Please rewrite the following QUESTION into 4 new questions with identical semantics.
+Let's work this out in a step by step way to be sure we have the right answer.
+
+# QUESTION #
+{}
+
+# RETURN AS A JSON #
+{{"reasoning": "the reasoning process", "new_questions": [4 new questions with identical semantics]}}"""
